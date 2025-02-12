@@ -1,26 +1,57 @@
 # Solana CNFT Chat System
-Repository for Solana CNFT Mint - Next.js + Tailwind CSS + Solana/Web3
 
+A messaging system built on Solana CNFT Mint using **Next.js**, **Tailwind CSS**, and **Solana/Web3**. This project utilizes the Solana blockchain and the **Metaplex SDK** to manage compressed non-fungible tokens (CNFTs), allowing users to upload metadata and create CNFTs.
 
+## 📜 Description
 
+This repository provides a baseline for a messenger system based on Solana CNFT Mint. It allows users to mint CNFTs on the Solana blockchain, manage metadata, and interact with the platform using Web3 technologies. 
 
-# Description
-This repo contains a baseline of Messenger System based on Solana CNFT Mint
-This leverages the capabilities of the Solana blockchain and the Metaplex SDK to manage compressed non-fungible tokens (CNFTs). It allows users to upload metadata and create CNFTs.
+---
 
-## Setup
+## ⚙️ Setup
 
-1. **Environment Variables:** This application relies on environment variables for configuration. Ensure you have the following variables set:
+### 1. Set Up Environment Variables
 
-- `WALLET_PRIVATE`: Administrator Wallet Private Key for CNFT Mint Fee.
-- `MAINNET_RPC`: Solana Mainnet RPC.
-- `PINATA_JWT`: JSON Web Token for Upload on Pinata.
-- `MERKLE_TREE_PUBKEY`: Merkle Tree Public Key.
+To configure the application, you'll need to set the following environment variables:
 
-2. **Dependencies:** Ensure you have the required dependencies installed. You can install them using yarn or npm:
+- **`WALLET_PRIVATE`**: Administrator wallet private key for CNFT mint fee transactions.
+- **`MAINNET_RPC`**: The Solana Mainnet RPC URL.
+- **`PINATA_JWT`**: JSON Web Token for uploading content to Pinata (used for storing IPFS metadata).
+- **`MERKLE_TREE_PUBKEY`**: Merkle Tree Public Key for your CNFT minting process.
 
-3. **Run the Application:** You can run the Next.js application using the following command:  yarn dev
+### 2. Install Dependencies
 
-## Authors
+Make sure you have the required dependencies installed. You can install them using either `yarn` or `npm`:
 
-- [Felix Martel](https://github.com/0xNevo)
+```bash
+yarn install
+# or
+npm install
+```
+
+### 3. Run the Application
+
+After installing dependencies and setting up the environment variables, you can run the application locally with:
+
+```bash
+yarn dev
+# or
+npm run dev
+```
+
+This will start the Next.js development server.
+
+---
+
+## ✨ Features
+
+- **Solana CNFT Minting**: Leverages the Solana blockchain to mint compressed NFTs (CNFTs).
+- **Metadata Upload**: Upload metadata to IPFS via Pinata integration.
+- **Web3 Integration**: Built with Solana/Web3 to interact with the blockchain.
+
+---
+
+## 📝 Authors
+
+- Telegram [Immutal0](https://t.me/Immutal0)
+- Twitter [Immutal0](https://x.com/Immutal0)
