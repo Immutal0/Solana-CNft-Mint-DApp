@@ -54,4 +54,4 @@ This will start the Next.js development server.
 ## 📝 Authors
 
 - Telegram [Immutal0](https://t.me/Immutal0)
-- Twitter [Immutal0](https://x.com/Immutal0)
+- Twitter [Immutal0_](https://x.com/Immutal0_)
